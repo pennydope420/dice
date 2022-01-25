@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#575777 ;
+}
+.container{
+    border: 2px double black;
+    border-radius: 30px;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; 
+    background-color: #575777;
+}
+.in-item{
+    margin: 4px;
+}
+
+h1,.fonts{
+    font-family: 'Spline Sans', sans-serif;
+    text-decoration:double;
+    
+}
+
+h1{
+    
+    height: 80px;
+    width: 100vw;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 1px;
+    position: relative;
+    top:10px
+    
+}
+#winner{
+   font-size: 40px;
+    height: 100px; 
+    position: relative;
+    top: 10px;
+    left: 455px;
+    margin-bottom: 351px;
+    color: aliceblue;
+    
+    
+    
+    
+}
+
+.player-container{
+    
+    height: 300px;
+    width: 1000px;
+    align-self: center;
+    position: relative;
+    right: 185px;
+    top: 15px;
+    
+    
+}
+
+.players{
+   
+    width: 50px;
+    display: inline-block;
+    margin: 0px 20px;
+    justify-content: center;
+}
+#p1{
+color: aliceblue;
+position: relative;
+left: 100px;
+height: 200px;
+width: 200px;
+text-decoration: underline;
+border: 6px solid black;
+border-radius: 10px;
+box-shadow: 5px 5px pink;
+
+}
+
+#p2{
+    color: aliceblue;
+position: relative;
+left: 350px;
+height: 200px;
+width: 200px;
+text-decoration: underline;
+border: 6px solid black;
+border-radius: 10px;
+border-radius: 10px;
+box-shadow: 5px 5px pink;
+}
+.dice-img{
+width: 50%;
+margin-top: 90px;
+}
+
+.player-container span{
+    position: relative;
+    bottom: 165px;
+    left: 75px;
+    font-weight:bolder;
+}
